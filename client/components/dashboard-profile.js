@@ -10,9 +10,7 @@ const DashboardProfile = () => {
       <div id="title">Profile</div>
       <div id="username"> {user} </div>
       <Link to="/dashboard/main">Go to Main</Link>
-      <div>
-        <Link to="/dashboard">Go to Root</Link>
-      </div>
+      <Link to="/dashboard">Go to Root</Link>
     </div>
   )
 }
